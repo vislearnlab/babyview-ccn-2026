@@ -363,8 +363,7 @@ p { margin: 0 0 1rem; color: var(--ink-soft); }
   padding: 1rem;
 }
 .iv-frame img {
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: auto;
   background: var(--bg-alt);
 }
 .iv-paper img {
