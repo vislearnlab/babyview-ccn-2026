@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Beyond Curated Datasets · CCN 2026 Community Event</title>
-  <meta name="description" content="A CCN 2026 community event on learning neural and behavioral representations from children's everyday experiences. Sunday, August 2, 2026 — New York University." />
+  <title>Beyond Curated Datasets · CCN 2026 Satellite Event</title>
+  <meta name="description" content="A CCN 2026 satellite event on learning neural and behavioral representations from children's everyday experiences. Sunday, August 2, 2026 — New York University." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet" />
@@ -13,7 +13,7 @@
 <body>
   <header class="hero">
     <div class="container">
-      <p class="kicker">CCN 2026 Community Event · Satellite</p>
+      <p class="kicker">CCN 2026 Satellite Event</p>
       <h1>Beyond Curated Datasets</h1>
       <p class="subtitle">Learning representations from children's everyday experiences</p>
       <div class="meta">
@@ -43,7 +43,7 @@
       <div class="container narrow">
         <h2>About</h2>
         <p>A central goal of cognitive computational neuroscience is to understand how structured neural and behavioral representations emerge from <em>everyday, real-world experience</em>. Yet most current models are trained and evaluated on curated datasets — collections of images, videos, and text disconnected from the temporal and embodied nature of how we actually experience the world.</p>
-        <p>Models trained on curated datasets achieve striking accuracy in predicting neural and behavioral responses to other curated datasets, but they often fail when asked to learn from, or generalize to, more naturalistic data. This community event highlights new methods for characterizing the learning environment available to young children, and new modeling approaches that can learn from these messy yet structured data.</p>
+        <p>Models trained on curated datasets achieve striking accuracy in predicting neural and behavioral responses to other curated datasets, but they often fail when asked to learn from, or generalize to, more naturalistic data. This satellite event highlights new methods for characterizing the learning environment available to young children, and new modeling approaches that can learn from these messy yet structured data.</p>
         <p class="lede">We propose that moving beyond curated datasets is essential to improve our understanding of human learning.</p>
       </div>
     </section>
@@ -58,7 +58,7 @@
           </div>
           <div class="card">
             <h3>Moderated panel</h3>
-            <p>A community-led discussion focused on open questions: What makes naturalistic data fundamentally different from curated datasets? How do we collect rigorous and ethical egocentric data from a child's perspective? What challenges arise when training models on developmental data?</p>
+            <p>A moderated discussion focused on open questions: What makes naturalistic data fundamentally different from curated datasets? How do we collect rigorous and ethical egocentric data from a child's perspective? What challenges arise when training models on developmental data?</p>
           </div>
         </div>
         <h3 class="goals-heading">Learning goals</h3>
@@ -145,7 +145,7 @@
     <section id="schedule" class="section">
       <div class="container narrow">
         <h2>Schedule</h2>
-        <p class="section-lede">A 90-minute session: short research talks followed by a moderated community panel. Final start time TBD — see the <a href="https://2026.ccneuro.org/" target="_blank" rel="noopener">CCN 2026 program</a>.</p>
+        <p class="section-lede">A 90-minute session: short research talks followed by a moderated panel. Final start time TBD — see the <a href="https://2026.ccneuro.org/" target="_blank" rel="noopener">CCN 2026 program</a>.</p>
         <ol class="schedule">
           <li>
             <span class="slot">0:00 – 0:05</span>
@@ -212,23 +212,47 @@
 
     <section id="infant-view" class="section">
       <div class="container">
-        <h2>The infant view</h2>
-        <p class="section-lede">A glimpse of the data: head-mounted, high-resolution video that captures children's everyday visual experience — adult faces, objects in hand, environments traversed.</p>
-        <figure class="infant-view-grid">
-          <div class="iv-item iv-camera">
-            <img src="photos/camera-on-helmet.png" alt="The BabyView camera mounted on a child-safety helmet" loading="lazy">
-            <figcaption>The BabyView camera — a deconstructed GoPro mounted on a lightweight helmet, designed in collaboration with Daylight Design and tested for child safety.</figcaption>
-          </div>
-          <div class="iv-item">
+        <h2>The data</h2>
+        <p class="section-lede">A glimpse of what the dataset looks like: a head-mounted, high-resolution camera and the egocentric video it produces — adult faces, objects in hand, environments traversed. All images from <a href="https://babyview-project.github.io/" target="_blank" rel="noopener">the BabyView project</a>.</p>
+
+        <div class="iv-row iv-row-camera">
+          <figure class="iv-camera-figure">
+            <img src="photos/bv-camera-new.png" alt="The current BabyView camera mounted on a child-safety helmet" loading="lazy">
+            <figcaption>The current BabyView camera — a GoPro HERO with integrated battery, mounted on a lightweight child-safety helmet.</figcaption>
+          </figure>
+          <figure class="iv-camera-figure">
+            <img src="photos/bv-camera-design.png" alt="Labeled diagram of the BabyView camera components" loading="lazy">
+            <figcaption>The camera and its components.</figcaption>
+          </figure>
+        </div>
+
+        <h3 class="iv-subheading">The infant view</h3>
+        <div class="iv-row iv-row-frames">
+          <figure class="iv-frame">
             <img src="photos/example-frame-1.png" alt="Example egocentric frame from a young child's perspective" loading="lazy">
-            <figcaption>Example frame: a caregiver in conversation, captured from the child's perspective.</figcaption>
-          </div>
-          <div class="iv-item">
+            <figcaption>Example frame from the child's perspective.</figcaption>
+          </figure>
+          <figure class="iv-frame">
             <img src="photos/example-frame-2.png" alt="Example egocentric frame showing objects in hand" loading="lazy">
-            <figcaption>Example frame: objects manipulated within arm's reach — the kind of input that drives early concept learning.</figcaption>
-          </div>
-        </figure>
-        <p class="schedule-note">Images drawn from the BabyView project. See the <a href="https://arxiv.org/abs/2406.10447" target="_blank" rel="noopener">dataset paper</a> for additional examples and analyses.</p>
+            <figcaption>Example frame: objects manipulated within arm's reach.</figcaption>
+          </figure>
+        </div>
+
+        <h3 class="iv-subheading">What we're learning from it</h3>
+        <div class="iv-row iv-row-papers">
+          <figure class="iv-paper">
+            <img src="photos/paper-long2025.png" alt="Figure from Long et al. 2025 BabyView dataset paper" loading="lazy">
+            <figcaption><a href="https://arxiv.org/abs/2406.10447" target="_blank" rel="noopener">Long et al.</a> — the BabyView dataset paper.</figcaption>
+          </figure>
+          <figure class="iv-paper">
+            <img src="photos/paper-tan2025.png" alt="Figure from Tan et al. 2025 paper on multimodal alignment" loading="lazy">
+            <figcaption>Tan et al. — alignment between infants' visual and linguistic experience.</figcaption>
+          </figure>
+          <figure class="iv-paper">
+            <img src="photos/paper-aw2026.png" alt="Figure from Wang et al. 2026 paper on zero-shot world models" loading="lazy">
+            <figcaption>Wang et al. — zero-shot world models as developmentally efficient learners.</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
 
@@ -253,7 +277,7 @@
 
   <footer>
     <div class="container">
-      <p>A satellite community event for <a href="https://2026.ccneuro.org/" target="_blank" rel="noopener">CCN 2026</a> · New York University · August 2, 2026</p>
+      <p>A satellite event for <a href="https://2026.ccneuro.org/" target="_blank" rel="noopener">CCN 2026</a> · New York University · August 2, 2026</p>
       <p class="small">Hosted by researchers at Stanford University, UC San Diego, Boston University, Google, and New York University.</p>
     </div>
   </footer>
