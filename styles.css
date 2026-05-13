@@ -109,7 +109,7 @@ p { margin: 0 0 1rem; color: var(--ink-soft); }
 .hero-illustration {
   position: absolute;
   top: 0.5rem;
-  right: 1.5rem;
+  right: 6rem;
   width: 270px;
   height: auto;
   pointer-events: none;
@@ -118,7 +118,7 @@ p { margin: 0 0 1rem; color: var(--ink-soft); }
 }
 @media (max-width: 820px) {
   .hero .container { padding-right: 180px; }
-  .hero-illustration { width: 160px; right: 1rem; }
+  .hero-illustration { width: 160px; right: 3rem; }
 }
 @media (max-width: 500px) {
   .hero .container { padding-right: 1.5rem; }
