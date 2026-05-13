@@ -2,7 +2,7 @@
 
 Static site for the satellite event at [CCN 2026](https://2026.ccneuro.org/) on **Sunday, August 2, 2026** at **New York University**.
 
-**Live site:** _set after enabling GitHub Pages_
+**Live site:** https://vislearnlab.github.io/ccn-satellite-egocentric-learning/
 
 ## Editing
 
